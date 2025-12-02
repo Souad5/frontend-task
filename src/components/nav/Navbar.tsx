@@ -3,7 +3,7 @@ import Button from "../../utilis/Button";
 const Navbar = () => {
     return (
         <div className="flex justify-around items-center p-4 relative z-10 bg-white  border-b border-b-gray-100">
-            <div>
+            <div className="-ml-44">
                 <img src="/logo-dark.svg" alt="" />
             </div>
             <div>
@@ -15,7 +15,7 @@ const Navbar = () => {
                     <li>Careers</li>
                 </ul>
             </div>
-            <div>
+            <div className="-mr-44">
                 <Button/>
             </div>
         </div>
